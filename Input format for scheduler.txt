@@ -1,0 +1,40 @@
+Formato:
+
+ALGORITMO
+*TIMEQUANTUM
+BURSTTIME ARRIVALTIME
+BURSTTIME ARRIVALTIME
+BURSTTIME ARRIVALTIME
+...		  ...
+BURSTTIME ARRIVALTIME
+
+ALGORITMOS SOPORTADOS: SJF, FIFO, RR
+SJF: Shortest job first
+FIFO: First in, first out
+RR: Round Robin (Time quantum fijo)
+*TIMEQUANTUM solo se ingresa para Round Robin.
+
+Ejemplos:
+
+FIFO
+3 0
+10 0
+5 5
+7 10
+2 15
+
+SJF
+3 0
+10 0
+5 5
+7 10
+2 15
+
+RR
+4
+3 0
+10 0
+5 5
+7 10
+2 15
+

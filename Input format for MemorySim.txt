@@ -1,0 +1,42 @@
+Formato:
+
+ALGORITMO
+CAPACIDAD
+ID
+ID
+ID
+ID
+...
+ID
+
+
+ALGORITMOS SOPORTADOS: NRU, FIFO, LRU 
+NRU: Not recently used
+FIFO: First in, first out
+LRU: Least Recently Used
+
+
+Ejemplos:
+
+FIFO
+3 0
+10 0
+5 5
+7 10
+2 15
+
+SJF
+3 0
+10 0
+5 5
+7 10
+2 15
+
+RR
+4
+3 0
+10 0
+5 5
+7 10
+2 15
+
